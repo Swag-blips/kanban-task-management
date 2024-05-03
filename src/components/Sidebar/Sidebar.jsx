@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../../assets/logo-dark.svg";
 import Boards from "./Boards";
+import Switch from "./Switch";
+import Hide from "./Hide";
 
 const Sidebar = () => {
   return (
@@ -9,7 +11,11 @@ const Sidebar = () => {
         <img src={logo} alt="logo" />
       </div>
 
+
       <Boards />
+
+      <Switch />
+      <Hide />
     </aside>
   );
 };
