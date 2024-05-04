@@ -9,7 +9,7 @@ const Boards = () => {
           all Boards (3)
         </p>
       </section>
-      <section className="mt-[18px] xl:w-[276px] md:w-[240px] pl-[24px] ">
+      <section className="mt-[18px] xl:w-[276px] md:w-[240px] md:pl-[24px] xl:pl-[32px] ">
         <Board />
       </section>
     </>
