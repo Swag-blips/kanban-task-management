@@ -4,8 +4,8 @@ import darkIcon from "../../assets/icon-dark-theme.svg";
 
 const Switch = () => {
   return (
-    <section className=" ml-[24px] bottom-[88px]  absolute   p-[1px] ">
-      <div className="flex items-center gap-[24px] bg-[#F4F7FD] w-[251px] rounded-md h-[48px] justify-center">
+    <section className=" md:ml-[14px] xl:ml-[24px] bottom-[88px]  absolute   p-[1px] ">
+      <div className="flex items-center gap-[24px] bg-[#F4F7FD] md:w-[235px] xl:w-[251px] rounded-md h-[48px] justify-center">
         <div>
           <img src={lightIcon} alt="light icon" />
         </div>
