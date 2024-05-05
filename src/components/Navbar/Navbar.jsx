@@ -6,7 +6,7 @@ import addTask from "../../assets/icon-add-task-mobile.svg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white md:ml-[16rem] xl:ml-[18.5rem] h-[64px] md:h-[81px] xl:h-[97px] p-[1px]">
+    <nav className="bg-white sticky top-0 md:ml-[16rem] xl:ml-[18.5rem] h-[64px] md:h-[81px] xl:h-[97px] p-[1px]">
       <div className="flex items-center mt-[16px] xl:mt-[24px] justify-between">
         <div className=" ml-[24px] flex items-center">
           <img src={logoMobile} alt="mobile logo" className="md:hidden" />
@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className=" flex items-center gap-[24px]">
+        <div className=" new-task-divvvv flex items-center gap-[24px]">
           <button className="hidden md:flex items-center justify-center  text-white font-bold w-[164px] h-[48px] rounded-full bg-[#A8A4FF] opacity-20">
             + Add New Task
           </button>
