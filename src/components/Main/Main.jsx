@@ -6,7 +6,7 @@ const Main = () => {
   const [active, setActive] = useState(true);
   return (
     <main className="w-full h-screen">
-      <section className="ml-[20rem]">
+      <section className="ml-[17.5rem] xl:ml-[20rem]">
         <Column />
       </section>
       <section
