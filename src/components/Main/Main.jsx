@@ -5,7 +5,7 @@ import Column from "./Column";
 const Main = () => {
   const [active, setActive] = useState(true);
   return (
-    <main className="w-full h-screen">
+    <main className="w-full h-auto">
       <section className="ml-[17.5rem] xl:ml-[20rem]">
         <Column />
       </section>
