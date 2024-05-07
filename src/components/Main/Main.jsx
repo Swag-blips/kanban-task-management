@@ -5,8 +5,8 @@ import Column from "./Column";
 const Main = () => {
   const [active, setActive] = useState(true);
   return (
-    <main className="w-full h-auto">
-      <section className="ml-[17.5rem] xl:ml-[20rem]">
+    <main className="w-full h-auto overflow-y-scroll  ">
+      <section className="ml-[24px] ">
         <Column />
       </section>
       <section

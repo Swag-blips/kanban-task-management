@@ -5,10 +5,12 @@ import Main from "../components/Main/Main";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="md:hidden">
       <Navbar />
-      <Sidebar />
-      <Main  />
+
+      {/* <Sidebar /> */}
+
+      <Main />
     </div>
   );
 };

@@ -6,11 +6,10 @@ import NewColumn from "./NewColumn";
 
 const Column = () => {
   return (
-    <div className="flex gap-[24px] ">
+    <div className="flex gap-[24px] w-screen mb-[20px] ">
       <Todo />
       <Doing />
       <Done />
-      <NewColumn />
     </div>
   );
 };
